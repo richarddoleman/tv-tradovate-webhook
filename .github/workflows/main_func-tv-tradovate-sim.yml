@@ -71,5 +71,6 @@ jobs:
         with:
           app-name: 'func-tv-tradovate-sim'
           slot-name: 'Production'
-          package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1F00DA71B2BA45979C1CC7A0BF7B96BC }}
+          package: 
+
+          publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
